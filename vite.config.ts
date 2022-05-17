@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [solidPlugin(), splitVendorChunkPlugin()],
   build: {
     target: 'esnext',
+    outDir: 'docs',
     polyfillDynamicImport: false,
   },
 });
