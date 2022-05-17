@@ -6,6 +6,7 @@ export default defineConfig({
   build: {
     target: 'esnext',
     outDir: 'docs',
+    minify: 'terser',
     polyfillDynamicImport: false,
   },
 });
